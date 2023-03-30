@@ -22,6 +22,10 @@ def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     """
     # TODO: Implement sum_of_squares_of_even
     pass
+    sum = 0
+    for x in even_int_list:
+        sum = sum + x * x
+    return sum
 # Main function
 def main():
     # Example list
